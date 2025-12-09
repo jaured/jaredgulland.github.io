@@ -1,0 +1,54 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 body \{\
+    background-color: #f8f9fa;\
+    font-family: Arial, sans-serif;\
+    color: #333;\
+    padding: 20px;\
+\}\
+\
+/* Required div styles */\
+.info-box \{\
+    background: #e3f2fd;\
+    padding: 15px;\
+    border-left: 4px solid #0d6efd;\
+    margin-bottom: 20px;\
+\}\
+\
+/* Required colors */\
+h1, h2 \{\
+    color: #0d6efd;\
+\}\
+\
+/* Required custom font family applied */\
+p, li \{\
+    font-family: "Verdana", sans-serif;\
+\}\
+\
+/* Hero section */\
+.hero \{\
+    position: relative;\
+    text-align: center;\
+\}\
+\
+.hero-img \{\
+    width: 100%;\
+    max-height: 400px;\
+    object-fit: cover;\
+\}\
+\
+.hero-text \{\
+    position: absolute;\
+    top: 50%;\
+    left: 50%;\
+    transform: translate(-50%, -50%);\
+    color: white;\
+    text-shadow: 2px 2px 8px black;\
+\}\
+\
+}
